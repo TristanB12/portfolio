@@ -1,9 +1,9 @@
 ---
 import Config from "../sarissa.config.cjs";
 ---
-<div class="flex gap-1 justify-center pt-4">
+<div class="flex gap-1 justify-start pt-4">
   {Config.socialMedia.facebook &&
-  <a class="btn btn-sm btn-ghost btn-square" href={`https://www.facebook.com/${Config.socialMedia.facebook}`}>
+  <a class="btn btn-sm btn-ghost btn-square" target="_blank" href={`https://www.facebook.com/${Config.socialMedia.facebook}`}>
     <svg
       class="inline-block w-4 h-4 fill-current"
       viewBox="0 0 24 24"
@@ -19,7 +19,7 @@ import Config from "../sarissa.config.cjs";
     </svg>
   </a>}
   {Config.socialMedia.twitter &&
-  <a class="btn btn-sm btn-ghost btn-square" href={`https://twitter.com/${Config.socialMedia.twitter}`}>
+  <a class="btn btn-sm btn-ghost btn-square" target="_blank" href={`https://twitter.com/${Config.socialMedia.twitter}`}>
     <svg
       class="inline-block w-4 h-4 fill-current"
       viewBox="0 0 24 24"
@@ -35,7 +35,7 @@ import Config from "../sarissa.config.cjs";
     </svg>
   </a>}
   {Config.socialMedia.linkedin &&
-  <a class="btn btn-sm btn-ghost btn-square" href={`https://www.linkedin.com/in/${Config.socialMedia.linkedin}`}>
+  <a class="btn btn-sm btn-ghost btn-square" target="_blank" href={`https://www.linkedin.com/in/${Config.socialMedia.linkedin}`}>
     <svg
       class="inline-block w-4 h-4 fill-current"
       viewBox="0 0 24 24"
@@ -53,7 +53,7 @@ import Config from "../sarissa.config.cjs";
     </svg>
   </a>}
   {Config.socialMedia.github &&
-  <a class="btn btn-sm btn-ghost btn-square" href={`https://github.com/${Config.socialMedia.github}`}>
+  <a class="btn btn-sm btn-ghost btn-square" target="_blank" href={`https://github.com/${Config.socialMedia.github}`}>
     <svg
       class="inline-block w-4 h-4 fill-current"
       viewBox="0 0 24 24"
